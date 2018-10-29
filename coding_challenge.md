@@ -23,6 +23,7 @@ features a user might find useful!
 ### CRUD application - Front-end
 
 Create React application with simple CRUD functionality for contracts. Contract data structure: 
+``` js
 {
    user: {
       name:string,
@@ -30,8 +31,10 @@ Create React application with simple CRUD functionality for contracts. Contract 
    },
    amountInUsd: string,
    currency: string,
-   date: string
+   date: string  
 }
+```
+
 You can create a simple express/koa server or use json-server to mock api. https://github.com/typicode/json-server 
 
 **extra requirements:**
