@@ -11,7 +11,7 @@ Github, Bitbucket...).
 Functional spec
 ---------------
 
-Prototype **one** of the following projects:
+Prototype **one** of the following projects or the **one** that is assigned to you:
 
 1. Departure Times
 2. SF Movies
@@ -44,8 +44,9 @@ Locations](https://data.sfgov.org/Arts-Culture-and-Recreation-/Film-Locations-in
 
 ### Email Service
 
-Create a service that accepts the necessary information and sends emails. It
-should provide an abstraction between two different email service providers.
+Create a service that accepts the necessary information and schedules and sends emails in the future. 
+It should be able to accept an arbitrary timestamp as an input for the email to be scheduled.
+It should provide an abstraction between two different email service providers.
 If one of the services goes down, your service can quickly failover to
 a different provider without affecting your customers.
 
@@ -96,10 +97,10 @@ Here are some technologies we are more familiar with:
 
 * Python
 * JavaScript
-* Ruby
-* PHP
 * Go
 * C++
+* Rust
+* Elixir
 * Haskell
 * Java
 
