@@ -11,29 +11,16 @@ Github, Bitbucket...).
 Functional spec
 ---------------
 
-Prototype **one** of the following projects or the **one** that is assigned to you:
+Prototype **one** of the following projects that is most suitable:
 
-1. Departure Times
-2. SF Movies
-3. Email Service
-4. Food Trucks
+1. SF Movies - Front-end
+2. Email Service - Back-end
 
 The UX/UI is totally up to you. If you like, get creative and add additional
 features a user might find useful!
 
-### Departure Times
 
-Create a service that gives real-time departure time for public transportation
-(use freely available public API). The app should geolocalize the user.
-
-Here are some examples of freely available data:
-
-* [511](http://511.org/developer-resources_transit-api.asp) (San Francisco)
-* [Nextbus](http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf) (San
-  Francisco)
-* [Transport for London Unified API](https://api.tfl.gov.uk/) (London)
-
-### SF Movies
+### SF Movies - Front-end
 
 Create a service that shows on a map where movies have been filmed in San
 Francisco. The user should be able to filter the view using autocompletion
@@ -42,7 +29,7 @@ search.
 The data is available on [DataSF](http://www.datasf.org/): [Film
 Locations](https://data.sfgov.org/Arts-Culture-and-Recreation-/Film-Locations-in-San-Francisco/yitu-d5am).
 
-### Email Service
+### Email Service - Back-end
 
 Create a service that accepts the necessary information and schedules and sends emails in the future. 
 It should be able to accept an arbitrary timestamp as an input for the email to be scheduled.
@@ -59,14 +46,6 @@ Example Email Providers:
 
 All listed services are free to try and are pretty painless to sign up for, so
 please register your own test accounts on each.
-
-### Food Trucks
-
-Create a service that tells the user what types of food trucks might be found
-near a specific location on a map.
-
-The data is available on [DataSF](http://www.datasf.org/): [Food
-Trucks](https://data.sfgov.org/Permitting/Mobile-Food-Facility-Permit/rqzj-sfat)
 
 Technical spec
 --------------
