@@ -13,12 +13,8 @@ Functional spec
 
 Prototype **one** of the following projects that is most suitable:
 
-1. SF Movies - Front-end
+1. CRUD application - Front-end
 2. Email Service - Back-end
-
-The UX/UI is totally up to you. If you like, get creative and add additional
-features a user might find useful!
-
 
 ### CRUD application - Front-end
 
@@ -38,8 +34,11 @@ Create React application with simple CRUD functionality for contracts. Contract 
 You can create a simple express/koa server or use json-server to mock api. https://github.com/typicode/json-server 
 
 **extra requirements:**
- * Display created contracts list in a table form. 
- * Add a chart on create page above create form: you can use ETH/USD exchange from https://www.coinapi.io/ (d3.js, chart.js or any other of your choice) 
+ * Display created contracts list in a table view. 
+ * Add chart(s) using currency exchange rates: you can use ETH/USD exchange from https://www.coinapi.io/ (d3.js, chart.js or any other of your choice) 
+
+The UX/UI is totally up to you. If you like, get creative and add additional
+features a user might find useful!
 
 You get some extra points for using TypeScript.
 
