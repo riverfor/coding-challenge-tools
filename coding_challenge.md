@@ -22,14 +22,23 @@ features a user might find useful!
 
 ### CRUD application - Front-end
 
-Create a React application with simple CRUD functionality. 
+Create React application with simple CRUD functionality for contracts. Contract data structure: 
+{
+   user: {
+      name:string,
+      surname: string
+   },
+   amountInUsd: string,
+   currency: string,
+   date: string
+}
 You can create a simple express/koa server or use json-server to mock api. https://github.com/typicode/json-server 
 
 **extra requirements:**
- * Display created items in table form. 
- * Add a graph on create page above create form: you can use ETH/USD exchange from https://www.coinapi.io/ or any other api that is more relevant to the application. 
+ * Display created contracts list in a table form. 
+ * Add a chart on create page above create form: you can use ETH/USD exchange from https://www.coinapi.io/ (d3.js, chart.js or any other of your choice) 
 
-Extra points for using TypeScript and Styled Components.
+You get some extra points for using TypeScript.
 
 ### Email Service - Back-end
 
