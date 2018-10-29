@@ -20,14 +20,16 @@ The UX/UI is totally up to you. If you like, get creative and add additional
 features a user might find useful!
 
 
-### SF Movies - Front-end
+### CRUD application - Front-end
 
-Create a service that shows on a map where movies have been filmed in San
-Francisco. The user should be able to filter the view using autocompletion
-search.
+Create a React application with simple CRUD functionality. 
+You can create a simple express/koa server or use json-server to mock api. https://github.com/typicode/json-server 
 
-The data is available on [DataSF](http://www.datasf.org/): [Film
-Locations](https://data.sfgov.org/Arts-Culture-and-Recreation-/Film-Locations-in-San-Francisco/yitu-d5am).
+**extra requirements:**
+ * Display created items in table form. 
+ * Add a graph on create page above create form: you can use ETH/USD exchange from https://www.coinapi.io/ or any other api that is more relevant to the application. 
+
+Extra points for using TypeScript and Styled Components.
 
 ### Email Service - Back-end
 
@@ -61,8 +63,8 @@ Choose **one** of the following technical tracks that best suits your skillset:
 2. **Back-end track**: include a minimal front-end (e.g. a static view or API
    docs). Write, document and test your API as if it will be used by other
    services.
-3. **Front-end track**: include a minimal back-end, or use the data service
-   directly. Focus on making the interface as polished as possible.
+3. **Front-end track**: include a minimal back-end, or use json-server.
+Focus on making the interface as polished as possible.
 
 ### Back-end
 
@@ -89,9 +91,8 @@ README which code was written by you (as opposed to generated code).
 
 ### Front-end
 
-The front-end should ideally be a single page app with a single `index.html`
-linking to external JS/CSS/etc. You may take this opportunity to demonstrate
-your CSS3 or HTML5 knowledge.
+The front-end app build should ideally be a single `index.html`
+linking to external JS/CSS/etc and assets.
 
 Host it!
 --------
