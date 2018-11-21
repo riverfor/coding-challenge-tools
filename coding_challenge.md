@@ -44,8 +44,9 @@ You get some extra points for using TypeScript.
 
 ### Email Service - Back-end
 
-Create a service that accepts the necessary information and schedules and sends emails in the future. 
+Create an API/RPC service that accepts the necessary information and schedules and sends emails in the future. 
 It should be able to accept an arbitrary timestamp as an input for the email to be scheduled.
+**The schedling feature must be implemented by you (impress us).**
 It should provide an abstraction between two different email service providers.
 If one of the services goes down, your service can quickly failover to
 a different provider without affecting your customers.
